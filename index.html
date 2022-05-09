@@ -22,7 +22,7 @@
         <div class="header__hero-section">
             <div class="hero-section__header">
                 <h1 class="header__title">Your website is an investment in the success of your business.</h1>
-                <h2 class="header__payoff">We are here to help you succeed.</h2>
+                <h3 class="header__payoff">We are here to help you succeed.</h3>
                 <button class="button button--cta">let's work together</button>
             </div>
 
@@ -44,7 +44,7 @@
                 We see every project as a fresh opportunity, pushing ourselves to create new digital experiences.</h3>
             </p>
             <p class="intro-section__link-text">
-                Have a question? <a href="#">Click here</a>  to contact us!
+                Have a question? <a class="intro-section__link-text" href="#">Click here</a>  to contact us!
             </p>
         </article>
     </div>
@@ -143,9 +143,24 @@
     </div>
 </div>
 
-<div>
-    <div>
-        <form action=""></form>
+<div class="form-section__outer-container">
+    <div class="form-section__inner-container">
+        <div class="form-section__form">
+            <h1 class=" form-section__hero"> Let's work together </h1>
+            <p class="form-section__p"> Have a question? Need a quote? Let us know! </p>
+            <form class="form-section__form" onsubmit="hier-hebben-we-nogsteeds-javascript-voor-nodig">
+                <label for="fullnamefield">Name</label>
+                <input type="text" id="fullnamefield" name="fullname"/>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10"></textarea>
+
+                <button class="form-section__send-button" type="submit">send</button>
+            </form>
+        </div>
     </div>
 </div>    
     
