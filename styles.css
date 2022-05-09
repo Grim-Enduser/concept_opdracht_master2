@@ -1,15 +1,27 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@300;500&family=Roboto:wght@300&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    outline: solid 5px rgba(255 0 0 / 10%);
+    /*outline: solid 5px rgba(255 0 0 / 10%);*/
 }
 
-
+/** Paars `#5722CD`;*/
+/** Blauw `#4845E4`;*/
+/** Roze `#ED4385`;*/
+/** Zwart `#0C0C0C` (voor standaard tekst);*/
+/** Lichtpaars `#F2F0FF` (voor de grote zwevende woorden, zoals "hello" en "services")*/
+/*_Uitzonderingen:_*/
+/** Lichtgrijs `#F3F6F9` (voor de achtergrond van de projecten)*/
+/** Grijs `#7A7A7A` (voor de service-tegel tekst);*/
 
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: font-family: 'Merriweather', serif;
 }
 
 /*header-styling*!*/
@@ -39,7 +51,7 @@ body {
 }
 
 ul.navigation__list {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -64,10 +76,9 @@ ul.navigation__list {
     display: flex;
     flex-direction:column;
     align-items: center;
-    border: solid 1px orange;
+    /*border: solid 1px orange;*/
     flex: auto;
     justify-content: space-between;
-
 }
 
 .hero-section__header {
