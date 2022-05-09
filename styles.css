@@ -1,41 +1,18 @@
-/*--globals--*/
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*outline: solid 5px rgba(255 0 0 / 10%);*/
+    outline: solid 5px rgba(255 0 0 / 10%);
 }
 
-/*--colors--*/
-/*:root {
-    --c-purple: #5722CD;
-    --c-blue: #4845E4;
-    --c-pink: #ED4385;
-    --c-black: #0C0C0C;
-    --c-purple-light: #F2F0FF;
-    --c-gray-light: #F3F6F9;
-    --c-gray: #7A7A7A;
-    --f-headers: Arial, Tahoma, Verdana;
-    --f-body: Arial;
-}
 
-h1,h2,h3,h4,h5 {
-    border: solid 1px red;
-    color: var(--c-purple);
-    font-family: var(--f-headers);
-}
-
-p, span {
-    color: var(--c-gray);
-    font-family: var(--f-body);
-}*/
-
-/*
-header-styling*/
 
 body {
     font-family: sans-serif;
 }
+
+/*header-styling*!*/
 
 .header__outer-container {
     background-color:#5722CD;
@@ -212,12 +189,13 @@ ul.navigation__list {
     flex: 3;
     /*border: solid 2px blue;*/
     min-width: 320px;
-    box-shadow: 0 10px 10px rgba(0 0 0 / 20%);
+    /*box-shadow: 0 10px 10px rgba(0 0 0 / 20%);*/
 }
 
 .portfolio-section__image img {
     max-width: calc(100% - 60px);
     margin: 30px;
+    box-shadow: 0 10px 10px rgba(0 0 0 / 20%);
 }
 
 .portfolio-section__text{
@@ -263,6 +241,7 @@ ul.navigation__list {
     gap: 40px;
     /*border: solid 1px orange;*/
     margin: 40px;
+
 }
 
 .services__article {
@@ -284,44 +263,50 @@ ul.navigation__list {
     display: flex;
     background-color:#5722CD;
     color: white;
-    flex-direction: row;
-    justify-content: center;
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     /*border: 1px solid red;*/
     min-height: 600px;
-    margin-top: 30px;
     min-width: 100%;
-
 }
-
 .form-section__inner-container{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
+    flex-basis: 1400px;
+   /*min-width: 600px;*/
 }
-
 .form-section__hero{
     text-align: center;
     /*border: solid 3px rgb(255 0 0);*/
     margin-bottom: 20px;
-
+    margin-top: 15%;
 }
 
 .form-section__p{
     text-align: center;
     margin-bottom: 20px;
     /*border: solid 3px rgb(255 0 0);*/
-
 }
 
 .form-section__form{
-    min-width: 600px;
+    /*flex-basis: 300px;*/
     display:flex;
     flex-direction:column;
+    padding: 20px;
+    /*align-items: center;*/
+    /*margin: 0px 1000px;*/
 }
 
+.form-section__form-fields{
+    border-color: white;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
 
 .form-section__send-button {
     margin-top: 30px;
